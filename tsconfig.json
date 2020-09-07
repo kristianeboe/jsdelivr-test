@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "lib": ["DOM", "ES2020"],
+      "strict": true,
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "strictPropertyInitialization": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "esModuleInterop": false,
+      "outDir": "dist",
+      "module": "CommonJS",
+    },
+    "include": [
+      "src", "test"
+    ],
+    "exclude": [
+      "node_modules",
+    ]
+}
