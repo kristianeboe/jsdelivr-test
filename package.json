@@ -1,14 +1,17 @@
 {
-  "name": "listfully-script",
+  "name": "jsdelivr-test-script",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Testing delivery of a script from jsdeliver to the browser",
+  "homepage":"https://github.com/kristianeboe/jsdelivr-test",
+  "browser": "build/main-bundle.js",
   "scripts": {
     "build": "eslint --fix  && tsc && jest dist/ && webpack -p",
     "test": "jest /dist"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "jsdelivr"
+  ],
+  "author": "Kristian Elset Bø",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.13",
